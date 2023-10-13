@@ -452,6 +452,11 @@ padding-top: 0;
     color: var(--ocean-color);
 }
 
+.link-customers:focus {
+    border-color: var(--ocean-color);
+    color: var(--ocean-color);
+}
+
 .list-social-media {
     list-style: none;
     display: flex;
