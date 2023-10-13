@@ -206,7 +206,7 @@ ul {
     padding: 188px 0;
     background-color: var(--navyblue-color);
     margin: 0 auto;
-    background-image: linear-gradient(var(--grey-color), var(--grey-color)), url(/images/main/people-office.jpg);
+    background-image: linear-gradient(var(--grey-color), rgba(46, 47, 66, 0.70)), url(/images/main/people-office.jpg);
     max-width: 1440px;
     background-position: center;
     background-size: cover;
@@ -394,4 +394,46 @@ padding-top: 0;
 
 .portfolio-section {
     padding: 96px 0 120px 0
+}
+
+.icon-our-strategy {
+
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;  
+    background: linear-gradient(--lightslate-color, --cloud-color);
+    margin-bottom: 8px;
+}
+
+.icon-strategy {
+   
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.list-customers {
+    display:flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.list-customers-li {
+    width: calc(100%-120px)/6;
+}
+
+.list-social-media {
+    list-style: none;
+    display: inline;
+}
+
+.list-social-media-li {
+    display: inline;
+    border-radius: 50%;
+    background-color: var(--iris-color);
+    width: 40px;
+    height: 40px;
 }
