@@ -397,17 +397,17 @@ padding-top: 0;
 }
 
 .icon-our-strategy {
+    
 
     width: 264px;
     height: 112px;
-    flex-shrink: 0;
     border-radius: 4px;  
     background: linear-gradient(--lightslate-color, --cloud-color);
     margin-bottom: 8px;
 }
 
 .icon-strategy {
-   
+  justify-self: center;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 100px;
@@ -427,7 +427,7 @@ padding-top: 0;
 
 .list-social-media {
     list-style: none;
-    display: inline;
+    
 }
 
 .list-social-media-li {
@@ -436,4 +436,24 @@ padding-top: 0;
     background-color: var(--iris-color);
     width: 40px;
     height: 40px;
+}
+
+.social-media-link {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-header {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--white-color)
 }
