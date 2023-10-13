@@ -202,9 +202,14 @@ ul {
 }
 
 .main-section {
-    background-color: var(--navyblue-color);
-    background-image: ;
+    display: flex;
     padding: 188px 0;
+    background-color: var(--navyblue-color);
+    margin: 0 auto;
+    background-image: linear-gradient(var(--grey-color), var(--grey-color)), url(/images/main/people-office.jpg);
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
 }
 
 .background-section {
