@@ -490,5 +490,5 @@ padding-top: 0;
 }
 
 .footer-svg:hover {
-    fill: #31D0AA;
+    fill: var(--green-color);
 }
