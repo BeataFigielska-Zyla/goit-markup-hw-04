@@ -441,6 +441,10 @@ padding-top: 0;
 }
 
 .list-social-media-li {
+    border-radius: 50%;
+        background-color: var(--iris-color);
+        width: 40px;
+        height: 40px;
     display: flex;
     gap: 16px;
     margin-top: 8px;
@@ -449,10 +453,11 @@ padding-top: 0;
 }
 
 .social-media-link {
-    border-radius: 50%;
-    background-color: var(--iris-color);
-    width: 40px;
-    height: 40px;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-position {
@@ -476,4 +481,14 @@ padding-top: 0;
 
 .social-media-container {
     margin-left: 120px;
+}
+
+.footer-svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--iris-color);
+}
+
+.footer-svg:hover {
+    fill: #31D0AA;
 }
