@@ -325,12 +325,14 @@ padding-top: 0;
     color: var(--white-color);
     background-color: var(--ocean-color);
     border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .button-text:focus {
     color: var(--white-color);
     background-color: var(--ocean-color);
     border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .project-name {
@@ -397,21 +399,20 @@ padding-top: 0;
 }
 
 .icon-our-strategy {
-    
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     border-radius: 4px;  
-    background: linear-gradient(--lightslate-color, --cloud-color);
+    background-color: var(--cloud-color);
     margin-bottom: 8px;
 }
 
-.icon-strategy {
-  justify-self: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 100px;
-  padding-right: 100px;
+.team-icon {
+    width: 16px;
+        height: 16px;
+        fill: #f4f4fd;
 }
 
 .list-customers {
@@ -439,8 +440,7 @@ padding-top: 0;
     gap: 16px;
     margin-top: 8px;
     justify-content: center;
-    align-content: center;
-   
+    align-items: center;
 }
 
 .social-media-link {
