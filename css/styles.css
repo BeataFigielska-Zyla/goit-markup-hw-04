@@ -568,3 +568,7 @@ padding-top: 0;
 .footer-svg:hover {
     fill: var(--green-color);
 }
+
+.footer-svg:active {
+    fill: var(--green-color);
+}
