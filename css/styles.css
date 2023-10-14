@@ -452,9 +452,8 @@ padding-top: 0;
 }
 
 .list-customers-li {
-    width: calc(100%-120px)/6;
-    height: 88px;
-    
+    width: calc((100% - 120px) / 6);
+    height: 88px;   
 }
 
 .link-customers {
@@ -465,7 +464,7 @@ padding-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--lightslate-color)
+    color: var(--lightslate-color)                                 
 }
 
 .link-customers:hover {
@@ -480,6 +479,7 @@ padding-top: 0;
 
 .customers-svg {
     fill: currentColor;
+    
 }
 .list-social-media {
     list-style: none;
