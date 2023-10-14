@@ -453,7 +453,8 @@ padding-top: 0;
 
 .list-customers-li {
     width: calc((100% - 120px) / 6);
-    height: 88px;   
+    height: 88px;  
+    width: 168px;
 }
 
 .link-customers {
