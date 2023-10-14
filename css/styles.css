@@ -472,7 +472,7 @@ padding-top: 0;
     color: var(--ocean-color);
 }
 
-.link-customers:focus {
+.link-customers:active {
     border-color: var(--ocean-color);
     color: var(--ocean-color);
 }
