@@ -472,7 +472,7 @@ padding-top: 0;
     color: var(--ocean-color);
 }
 
-.link-customers:active {
+.link-customers:visited {
     border-color: var(--ocean-color);
     color: var(--ocean-color);
 }
@@ -526,8 +526,11 @@ padding-top: 0;
 }
 
 .footer-link-social-media:hover {
+    background-color: var(--green-color);  
+}
+
+.footer-link-social-media:focus {
     background-color: var(--green-color);
-    
 }
 
 .footer-container {
@@ -569,6 +572,3 @@ padding-top: 0;
     fill: var(--green-color);
 }
 
-.footer-svg:active {
-    fill: var(--green-color);
-}
